@@ -11,6 +11,7 @@ import 'package:untitled/src/core/utils/navigation.dart';
 import 'package:untitled/src/core/utils/term_of_use_widget.dart';
 import 'package:untitled/src/core/widgets/image_widget.dart';
 import 'package:untitled/src/core/widgets/main_button.dart';
+import 'package:untitled/src/core/widgets/sign_in_with_google_widget.dart';
 import 'package:untitled/src/feature/auth/presentation/pages/register_page.dart';
 
 import '../../../../core/utils/images.dart';
@@ -48,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
               flex: 3,
               child: Column(
                 children: [
-                  MainButtonWidget(title: 'Continue with google'),
+                  SignInWithGoogleWidget(),
                   30.verticalSpace,
                   Align(
                     alignment: Alignment.center,
